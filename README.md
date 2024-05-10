@@ -1,5 +1,5 @@
 # 说明
-一个VitePress的项目,张三的店！
+一个VitePress的项目,GPT2Share！
 
 
 ## 本地运行

@@ -1,13 +1,13 @@
 ---
 layout: home
 
-title: 张三的店
-titleTemplate: 张三的店
+title: GPT2Share
+titleTemplate: GPT2Share
 
 hero:
-  name: 张三的店
+  name: GPT2Share
   text: 
-  tagline: 张三的店。
+  tagline: GPT2Share。
 
 
 ---

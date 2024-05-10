@@ -4,7 +4,7 @@
 			<div class="mx-auto max-w-2xl sm:text-center">
 				<h2 class="text-base font-semibold leading-7 text-indigo-600">领先的ChatGPT合租服务商</h2>
 				<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">3折使用ChatGPT Team.</p>
-				<p class="mt-6 text-lg leading-8 text-gray-600">张三的店助力千家万户享受AI带来的发展，以合理的价格体验极致的服务！</p>
+				<p class="mt-6 text-lg leading-8 text-gray-600">GPT2Share助力千家万户享受AI带来的发展，以合理的价格体验极致的服务！</p>
 			</div>
 		</div>
 		<div class="relative overflow-hidden pt-16">
@@ -183,12 +183,12 @@
 					class="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-gray-100 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-x lg:divide-y-0 xl:-mx-4"
 				>
 					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
-						<h3 id="tier-basic" class="text-base font-semibold leading-7 text-gray-900">基础款</h3>
+						<h3 id="tier-basic" class="text-base font-semibold leading-7 text-gray-900">3.5基础款</h3>
 						<p class="mt-6 flex items-baseline gap-x-1">
-							<span class="text-5xl font-bold tracking-tight text-gray-900">￥0</span
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥8.8</span
 							><span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
 						</p>
-						<p class="mt-3 text-sm leading-6 text-gray-500">￥0 per month if paid annually</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥105.6 per month if paid annually</p>
 						<a
 							href="/buy"
 							aria-describedby="tier-basic"
@@ -196,7 +196,7 @@
 						>
 							前往购买节点</a
 						>
-						<p class="mt-10 text-sm font-semibold leading-6 text-gray-900">免费使用GPT3.5，无法使用GPT4.</p>
+						<p class="mt-10 text-sm font-semibold leading-6 text-gray-900">便捷使用GPT3.5，无法使用GPT4.</p>
 						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
 							<li class="flex gap-x-3">
 								<svg
@@ -213,7 +213,7 @@
 										clip-rule="evenodd"
 									></path>
 								</svg>
-								免费的GPT3.5
+								国内直连的GPT3.5
 							</li>
 							<li class="flex gap-x-3">
 								<svg
@@ -252,12 +252,12 @@
 						</ul>
 					</div>
 					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
-						<h3 id="tier-essential" class="text-base font-semibold leading-7 text-gray-900">PLUS款【停售】</h3>
+						<h3 id="tier-essential" class="text-base font-semibold leading-7 text-gray-900">4.0中杯</h3>
 						<p class="mt-6 flex items-baseline gap-x-1">
-							<span class="text-5xl font-bold tracking-tight text-gray-900">￥35</span
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥40</span
 							><span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
 						</p>
-						<p class="mt-3 text-sm leading-6 text-gray-500">￥420 per month if paid annually</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥398 per month if paid annually</p>
 						<a
 							href="/buy"
 							aria-describedby="tier-essential"
@@ -282,7 +282,7 @@
 										clip-rule="evenodd"
 									></path>
 								</svg>
-								免费的GPT3.5
+								国内直连的GPT3.5
 							</li>
 							<li class="flex gap-x-3">
 								<svg
@@ -316,7 +316,7 @@
 										clip-rule="evenodd"
 									></path>
 								</svg>
-								共享高级模型 40条/3小时
+								共享高级模型 20条/1小时
 							</li>
 							<li class="flex gap-x-3">
 								<svg
@@ -372,12 +372,12 @@
 						</ul>
 					</div>
 					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
-						<h3 id="tier-growth" class="text-base font-semibold leading-7 text-gray-900">Team款</h3>
+						<h3 id="tier-growth" class="text-base font-semibold leading-7 text-gray-900">4.0大杯</h3>
 						<p class="mt-6 flex items-baseline gap-x-1">
-							<span class="text-5xl font-bold tracking-tight text-gray-900">￥45</span
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥ 48</span
 							><span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
 						</p>
-						<p class="mt-3 text-sm leading-6 text-gray-500">￥540 per month if paid annually</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥576 per month if paid annually</p>
 						<a
 							href="/buy"
 							aria-describedby="tier-growth"
@@ -402,7 +402,7 @@
 										clip-rule="evenodd"
 									></path>
 								</svg>
-								免费的GPT3.5
+								国内直连的GPT3.5
 							</li>
 							<li class="flex gap-x-3">
 								<svg
@@ -436,7 +436,7 @@
 										clip-rule="evenodd"
 									></path>
 								</svg>
-								共享高级模型 100条/3小时
+								共享高级模型 40条/1小时
 							</li>
 							<li class="flex gap-x-3">
 								<svg

@@ -9,7 +9,7 @@
 							<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">全球CDN分发</p>
 							<p class="mt-6 text-lg leading-8 text-gray-600">
 								传统上，使用ChatGPT合租服务需要依赖固定的节点，并通过官方网站进行访问。
-								这种方式经常因为用户切换IP地址而导致账户被封禁，给很多用户带来了困扰。张三的店提供的ChatGPT合租服务已经克服了这一难题。
+								这种方式经常因为用户切换IP地址而导致账户被封禁，给很多用户带来了困扰。GPT2Share提供的ChatGPT合租服务已经克服了这一难题。
 							</p>
 						</div>
 					</div>
