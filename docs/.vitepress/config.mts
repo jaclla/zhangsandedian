@@ -1,7 +1,7 @@
 import mdItCustomAttrs from "markdown-it-custom-attrs";
 import {defineConfig} from "vitepress";
 export default defineConfig({
-	base: "/zhangsandedian/",//部署到GitHub Pages时的仓库名
+	base: "/",//部署到GitHub Pages时的仓库名
 	title: "GPT2Share",
 	lang: "zh-CN",
 	description: "GPT2Share",
