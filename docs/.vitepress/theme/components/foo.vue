@@ -436,7 +436,7 @@
 										clip-rule="evenodd"
 									></path>
 								</svg>
-								共享高级模型 40条/1小时
+								共享高级模型 30条/1小时
 							</li>
 							<li class="flex gap-x-3">
 								<svg
