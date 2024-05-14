@@ -188,7 +188,7 @@
 							<span class="text-5xl font-bold tracking-tight text-gray-900">￥8.8</span
 							><span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
 						</p>
-						<p class="mt-3 text-sm leading-6 text-gray-500">￥105.6 per month if paid annually</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥8 per month if paid annually</p>
 						<a
 							href="https://home.gpt2share.com"
 							aria-describedby="tier-basic"
@@ -257,7 +257,7 @@
 							<span class="text-5xl font-bold tracking-tight text-gray-900">￥40</span
 							><span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
 						</p>
-						<p class="mt-3 text-sm leading-6 text-gray-500">￥398 per month if paid annually</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥33 per month if paid annually</p>
 						<a
 							href="https://home.gpt2share.com"
 							aria-describedby="tier-essential"
@@ -377,7 +377,7 @@
 							<span class="text-5xl font-bold tracking-tight text-gray-900">￥ 48</span
 							><span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
 						</p>
-						<p class="mt-3 text-sm leading-6 text-gray-500">￥576 per month if paid annually</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥40 per month if paid annually</p>
 						<a
 							href="https://home.gpt2share.com"
 							aria-describedby="tier-growth"
