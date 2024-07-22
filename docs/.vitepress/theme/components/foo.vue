@@ -554,7 +554,7 @@
 
 					<!-- 4.0大杯超大杯 -->
 					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
-						<h3 id="tier-ultra" class="text-base font-semibold leading-7 text-gray-900">4.0大杯超大杯</h3>
+						<h3 id="tier-ultra" class="text-base font-semibold leading-7 text-gray-900">4.0超大杯</h3>
 						<p class="mt-6 flex items-baseline gap-x-1">
 							<span class="text-5xl font-bold tracking-tight text-gray-900">￥58</span>
 							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
