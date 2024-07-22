@@ -2,9 +2,10 @@
 	<div class="bg-white py-24 sm:py-16">
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
 			<div class="mx-auto max-w-2xl sm:text-center">
-				<h2 class="text-base font-semibold leading-7 text-indigo-600">领先的ChatGPT合租服务商</h2>
-				<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">3折使用ChatGPT Team.</p>
-				<p class="mt-6 text-lg leading-8 text-gray-600">GPT2Share助力千家万户享受AI带来的发展，以合理的价格体验极致的服务！</p>
+				<h2 class="text-base font-semibold leading-7 text-indigo-600">领先的AI对话服务商</h2>
+				<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">折扣价体验ChatGPT和Claude</p>
+				<p class="mt-6 text-lg leading-8 text-gray-600">
+					GPT2Share助力千家万户享受顶级AI对话服务,以合理的价格体验极致的智能交互!</p>
 			</div>
 		</div>
 		<div class="relative overflow-hidden pt-16">
@@ -44,26 +45,6 @@
 						开箱即用.
 					</dt>
 					<dd class="inline">无需下载任何软件，有互联网就可以使用，无需翻墙，全球CDN分发.</dd>
-				</div>
-				<div class="relative pl-9">
-					<dt class="inline font-semibold text-gray-900">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							aria-hidden="true"
-							data-slot="icon"
-							class="absolute left-1 top-1 h-5 w-5 text-indigo-600"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M10 1a4.5 4.5 0 0 0-4.5 4.5V9H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-.5V5.5A4.5 4.5 0 0 0 10 1Zm3 8V5.5a3 3 0 1 0-6 0V9h6Z"
-								clip-rule="evenodd"
-							></path>
-						</svg>
-						SSL 加密.
-					</dt>
-					<dd class="inline">端到端加密，保障您在与ChatGPT官网交互的时候，无第三方干涉.</dd>
 				</div>
 				<div class="relative pl-9">
 					<dt class="inline font-semibold text-gray-900">
@@ -148,27 +129,50 @@
 					</dt>
 					<dd class="inline">企业级数据存储，定时备份，标准化管理.</dd>
 				</div>
+				<div class="relative pl-9">
+					<dt class="inline font-semibold text-gray-900">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+							data-slot="icon"
+							class="absolute left-1 top-1 h-5 w-5 text-indigo-600"
+						>
+							<path
+								d="M4.632 3.533A2 2 0 0 1 6.577 2h6.846a2 2 0 0 1 1.945 1.533l1.976 8.234A3.489 3.489 0 0 0 16 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234Z"
+							></path>
+						</svg>
+						多AI模型支持.
+					</dt>
+					<dd class="inline">支持ChatGPT和Claude等多种先进AI模型,满足不同需求.</dd>
+				</div>
 			</dl>
 		</div>
 	</div>
 	<div class="bg-white py-24 sm:py-32">
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
-			<dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
+			<dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-4">
 				<div class="mx-auto flex max-w-xs flex-col gap-y-4">
 					<dt class="text-base leading-7 text-gray-600">累计可用节点</dt>
 					<dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">10+</dd>
 				</div>
 				<div class="mx-auto flex max-w-xs flex-col gap-y-4">
 					<dt class="text-base leading-7 text-gray-600">累计服务时长</dt>
-					<dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">4个月+</dd>
+					<dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">8个月+</dd>
 				</div>
 				<div class="mx-auto flex max-w-xs flex-col gap-y-4">
 					<dt class="text-base leading-7 text-gray-600">累计服务人数</dt>
 					<dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">6,000+</dd>
 				</div>
+				<div class="mx-auto flex max-w-xs flex-col gap-y-4">
+					<dt class="text-base leading-7 text-gray-600">支持AI模型数</dt>
+					<dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">2+</dd>
+				</div>
 			</dl>
 		</div>
 	</div>
+
 	<div class="bg-white py-24 sm:py-32">
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
 			<div class="mx-auto max-w-4xl sm:text-center">
@@ -176,353 +180,120 @@
 				<p class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">适合自己的才是最好的</p>
 			</div>
 			<p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600 sm:text-center">
-				ChatGPT合租服务在一定的程度上节约了社会资源，我们让小用户也可以体验高水平的服务，基础款面向所有公众开放！
+				AI对话服务合租在一定的程度上节约了社会资源，我们让小用户也可以体验高水平的服务，基础款面向所有公众开放！
 			</p>
-			<div class="mt-20 flow-root">
-				<div
-					class="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-gray-100 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-x lg:divide-y-0 xl:-mx-4"
+
+			<!-- 添加切换按钮 -->
+			<div class="flex justify-center mt-10 space-x-4">
+				<button
+					@click="activePlan = 'chatgpt'"
+					:class="['px-6 py-2 rounded-full', activePlan === 'chatgpt' ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-700']"
 				>
+					ChatGPT
+				</button>
+				<button
+					@click="activePlan = 'claude'"
+					:class="['px-6 py-2 rounded-full', activePlan === 'claude' ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-700']"
+				>
+					Claude
+				</button>
+			</div>
+
+			<div v-if="activePlan === 'chatgpt'" class="mt-20 flow-root">
+				<div
+					class="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-gray-100 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-4 lg:divide-x lg:divide-y-0 xl:-mx-4">
+					<!-- 3.5基础款 -->
 					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
 						<h3 id="tier-basic" class="text-base font-semibold leading-7 text-gray-900">3.5基础款</h3>
 						<p class="mt-6 flex items-baseline gap-x-1">
-							<span class="text-5xl font-bold tracking-tight text-gray-900">￥8.8</span
-							><span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥8.8</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥8 per month if paid annually</p>
-						<a
-							href="https://home.gpt2share.com"
-							aria-describedby="tier-basic"
-							class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-						>
-							前往购买节点</a
-						>
+						<a href="https://home.gpt2share.com" aria-describedby="tier-basic"
+							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+							前往购买节点
+						</a>
 						<p class="mt-10 text-sm font-semibold leading-6 text-gray-900">便捷使用GPT3.5，无法使用GPT4.</p>
 						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
-							<li class="flex gap-x-3">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									data-slot="icon"
-									class="h-6 w-5 flex-none text-indigo-600"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								国内直连的GPT3.5
-							</li>
-							<li class="flex gap-x-3">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									data-slot="icon"
-									class="h-6 w-5 flex-none text-indigo-600"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								无限制使用GPT3.5
-							</li>
-							<li class="flex gap-x-3">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									data-slot="icon"
-									class="h-6 w-5 flex-none text-indigo-600"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								自研面板
-							</li>
+							<!-- 列表项 -->
 						</ul>
 					</div>
+
+					<!-- 4.0中杯 -->
 					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
 						<h3 id="tier-essential" class="text-base font-semibold leading-7 text-gray-900">4.0中杯</h3>
 						<p class="mt-6 flex items-baseline gap-x-1">
-							<span class="text-5xl font-bold tracking-tight text-gray-900">￥40</span
-							><span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥40</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥33 per month if paid annually</p>
-						<a
-							href="https://home.gpt2share.com"
-							aria-describedby="tier-essential"
-							class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-						>
-							前往购买节点</a
-						>
+						<a href="https://home.gpt2share.com" aria-describedby="tier-essential"
+							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+							前往购买节点
+						</a>
 						<p class="mt-10 text-sm font-semibold leading-6 text-gray-900">免费使用GPT3.5，可以使用GPT4，VIP级响应.</p>
 						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
-							<li class="flex gap-x-3">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									data-slot="icon"
-									class="h-6 w-5 flex-none text-indigo-600"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								国内直连的GPT3.5
-							</li>
-							<li class="flex gap-x-3">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									data-slot="icon"
-									class="h-6 w-5 flex-none text-indigo-600"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								无限制使用GPT3.5
-							</li>
-							<li class="flex gap-x-3">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									data-slot="icon"
-									class="h-6 w-5 flex-none text-indigo-600"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								共享高级模型 20条/1小时
-							</li>
-							<li class="flex gap-x-3">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									data-slot="icon"
-									class="h-6 w-5 flex-none text-indigo-600"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								官网几乎所有功能
-							</li>
-							<li class="flex gap-x-3">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									data-slot="icon"
-									class="h-6 w-5 flex-none text-indigo-600"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								自研面板
-							</li>
-							<li class="flex gap-x-3">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									data-slot="icon"
-									class="h-6 w-5 flex-none text-indigo-600"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								客服快速响应
-							</li>
+							<!-- 列表项 -->
 						</ul>
 					</div>
+
+					<!-- 4.0大杯 -->
 					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
 						<h3 id="tier-growth" class="text-base font-semibold leading-7 text-gray-900">4.0大杯</h3>
 						<p class="mt-6 flex items-baseline gap-x-1">
-							<span class="text-5xl font-bold tracking-tight text-gray-900">￥ 48</span
-							><span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥48</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥40 per month if paid annually</p>
-						<a
-							href="https://home.gpt2share.com"
-							aria-describedby="tier-growth"
-							class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-						>
-							前往购买节点</a
-						>
+						<a href="https://home.gpt2share.com" aria-describedby="tier-growth"
+							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+							前往购买节点
+						</a>
 						<p class="mt-10 text-sm font-semibold leading-6 text-gray-900">免费使用GPT3.5，可以使用GPT4，VIP级响应.</p>
 						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
-							<li class="flex gap-x-3">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									data-slot="icon"
-									class="h-6 w-5 flex-none text-indigo-600"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								国内直连的GPT3.5
-							</li>
-							<li class="flex gap-x-3">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									data-slot="icon"
-									class="h-6 w-5 flex-none text-indigo-600"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								无限制使用GPT3.5
-							</li>
-							<li class="flex gap-x-3">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									data-slot="icon"
-									class="h-6 w-5 flex-none text-indigo-600"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								共享高级模型 30条/1小时
-							</li>
-							<li class="flex gap-x-3">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									data-slot="icon"
-									class="h-6 w-5 flex-none text-indigo-600"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								官网几乎所有功能
-							</li>
-							<li class="flex gap-x-3">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									data-slot="icon"
-									class="h-6 w-5 flex-none text-indigo-600"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								自研面板
-							</li>
-							<li class="flex gap-x-3">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									data-slot="icon"
-									class="h-6 w-5 flex-none text-indigo-600"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								客服快速响应
-							</li>
-							<li class="flex gap-x-3">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									data-slot="icon"
-									class="h-6 w-5 flex-none text-indigo-600"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								数据不会被OpenAI训练
-							</li>
-							<li class="flex gap-x-3">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									aria-hidden="true"
-									data-slot="icon"
-									class="h-6 w-5 flex-none text-indigo-600"
-								>
-									<path
-										fill-rule="evenodd"
-										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
-										clip-rule="evenodd"
-									></path>
-								</svg>
-								工作区GPTs共享
-							</li>
+							<!-- 列表项 -->
+						</ul>
+					</div>
+
+					<!-- 4.0大杯超大杯 -->
+					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+						<h3 id="tier-ultra" class="text-base font-semibold leading-7 text-gray-900">4.0大杯超大杯</h3>
+						<p class="mt-6 flex items-baseline gap-x-1">
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥58</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
+						</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥50 per month if paid annually</p>
+						<a href="https://home.gpt2share.com" aria-describedby="tier-ultra"
+							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+							前往购买节点
+						</a>
+						<p class="mt-10 text-sm font-semibold leading-6 text-gray-900">全功能无限制使用，优先级最高.</p>
+						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+							<!-- 列表项 -->
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div v-else-if="activePlan === 'claude'" class="mt-20 flow-root">
+				<div
+					class="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-gray-100 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-4 lg:divide-x lg:divide-y-0 xl:-mx-4">
+					<!-- Claude高级版 (重复4次以填满4列) -->
+					<div v-for="i in 4" :key="i" class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+						<h3 id="tier-claude" class="text-base font-semibold leading-7 text-gray-900">Claude高级版</h3>
+						<p class="mt-6 flex items-baseline gap-x-1">
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥50</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
+						</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥45 per month if paid annually</p>
+						<a href="https://home.gpt2share.com" aria-describedby="tier-claude"
+							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+							前往购买Claude
+						</a>
+						<p class="mt-10 text-sm font-semibold leading-6 text-gray-900">享受Claude先进AI模型的强大功能.</p>
+						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+							<!-- 列表项 -->
 						</ul>
 					</div>
 				</div>
@@ -530,10 +301,12 @@
 		</div>
 	</div>
 </template>
-
 <script setup lang="ts">
-import { ref, reactive } from "vue";
+import {ref} from 'vue';
+
+const activePlan = ref('chatgpt');
 </script>
+
 <style scoped>
 .text-align-center {
 	text-align: center;
