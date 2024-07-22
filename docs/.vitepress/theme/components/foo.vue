@@ -216,7 +216,30 @@
 						</a>
 						<p class="mt-10 text-sm font-semibold leading-6 text-gray-900">便捷使用GPT3.5，无法使用GPT4.</p>
 						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
-							<!-- 列表项 -->
+							<li class="flex gap-x-3">
+								<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
+												d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+												clip-rule="evenodd"/>
+								</svg>
+								国内直连的GPT3.5
+							</li>
+							<li class="flex gap-x-3">
+								<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
+												d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+												clip-rule="evenodd"/>
+								</svg>
+								无限制使用GPT3.5
+							</li>
+							<li class="flex gap-x-3">
+								<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
+												d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+												clip-rule="evenodd"/>
+								</svg>
+								自研面板
+							</li>
 						</ul>
 					</div>
 
@@ -234,7 +257,54 @@
 						</a>
 						<p class="mt-10 text-sm font-semibold leading-6 text-gray-900">免费使用GPT3.5，可以使用GPT4，VIP级响应.</p>
 						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
-							<!-- 列表项 -->
+							<li class="flex gap-x-3">
+								<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
+												d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+												clip-rule="evenodd"/>
+								</svg>
+								国内直连的GPT3.5
+							</li>
+							<li class="flex gap-x-3">
+								<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
+												d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+												clip-rule="evenodd"/>
+								</svg>
+								无限制使用GPT3.5
+							</li>
+							<li class="flex gap-x-3">
+								<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
+												d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+												clip-rule="evenodd"/>
+								</svg>
+								共享高级模型 20条/1小时
+							</li>
+							<li class="flex gap-x-3">
+								<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
+												d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+												clip-rule="evenodd"/>
+								</svg>
+								官网几乎所有功能
+							</li>
+							<li class="flex gap-x-3">
+								<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
+												d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+												clip-rule="evenodd"/>
+								</svg>
+								自研面板
+							</li>
+							<li class="flex gap-x-3">
+								<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
+												d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+												clip-rule="evenodd"/>
+								</svg>
+								客服快速响应
+							</li>
 						</ul>
 					</div>
 
@@ -243,7 +313,7 @@
 						<h3 id="tier-growth" class="text-base font-semibold leading-7 text-gray-900">4.0大杯</h3>
 						<p class="mt-6 flex items-baseline gap-x-1">
 							<span class="text-5xl font-bold tracking-tight text-gray-900">￥48</span>
-							<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥40 per month if paid annually</p>
 						<a href="https://home.gpt2share.com" aria-describedby="tier-growth"
@@ -252,7 +322,70 @@
 						</a>
 						<p class="mt-10 text-sm font-semibold leading-6 text-gray-900">免费使用GPT3.5，可以使用GPT4，VIP级响应.</p>
 						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
-							<!-- 列表项 -->
+							<li class="flex gap-x-3">
+								<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
+												d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+												clip-rule="evenodd"/>
+								</svg>
+								国内直连的GPT3.5
+							</li>
+							<li class="flex gap-x-3">
+								<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
+												d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+												clip-rule="evenodd"/>
+								</svg>
+								无限制使用GPT3.5
+							</li>
+							<li class="flex gap-x-3">
+								<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
+												d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+												clip-rule="evenodd"/>
+								</svg>
+								共享高级模型 30条/1小时
+							</li>
+							<li class="flex gap-x-3">
+								<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
+												d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+												clip-rule="evenodd"/>
+								</svg>
+								官网几乎所有功能
+							</li>
+							<li class="flex gap-x-3">
+								<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
+												d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+												clip-rule="evenodd"/>
+								</svg>
+								自研面板
+							</li>
+							<li class="flex gap-x-3">
+								<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
+												d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+												clip-rule="evenodd"/>
+								</svg>
+								客服快速响应
+							</li>
+							<li class="flex gap-x-3">
+								<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
+												d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+												clip-rule="evenodd"/>
+								</svg>
+								数据不会被OpenAI训练
+							</li>
+							<li class="flex gap-x-3">
+								<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd"
+												d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+												clip-rule="evenodd"/>
+								</svg>
+								工作区GPTs共享
+							</li>
 						</ul>
 					</div>
 
@@ -261,7 +394,7 @@
 						<h3 id="tier-ultra" class="text-base font-semibold leading-7 text-gray-900">4.0大杯超大杯</h3>
 						<p class="mt-6 flex items-baseline gap-x-1">
 							<span class="text-5xl font-bold tracking-tight text-gray-900">￥58</span>
-							<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥50 per month if paid annually</p>
 						<a href="https://home.gpt2share.com" aria-describedby="tier-ultra"
@@ -270,12 +403,11 @@
 						</a>
 						<p class="mt-10 text-sm font-semibold leading-6 text-gray-900">全功能无限制使用，优先级最高.</p>
 						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
-							<!-- 列表项 -->
+							<!-- 这里可以添加4.0大杯超大杯的具体特性 -->
 						</ul>
 					</div>
 				</div>
 			</div>
-
 			<div v-else-if="activePlan === 'claude'" class="mt-20 flow-root">
 				<div
 					class="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-gray-100 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-4 lg:divide-x lg:divide-y-0 xl:-mx-4">
