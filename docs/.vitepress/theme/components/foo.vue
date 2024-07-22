@@ -20,6 +20,16 @@
 				<div class="relative" aria-hidden="true">
 					<div class="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%]"></div>
 				</div>
+				<img
+					src="https://s2.loli.net/2024/07/22/6NlVQgpP5tZnXo4.png"
+					alt="App screenshot"
+					class="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
+					width="2432"
+					height="1442"
+				/>
+				<div class="relative" aria-hidden="true">
+					<div class="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%]"></div>
+				</div>
 			</div>
 		</div>
 		<div class="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
