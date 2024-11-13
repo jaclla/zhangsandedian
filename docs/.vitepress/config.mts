@@ -30,12 +30,12 @@ export default defineConfig({
 		nav: [
 			{text: "首页", link: "/", activeMatch: "/home"},
 			{text: "特性", link: "/pages/character", activeMatch: "/pages/character/"},
+			{text: "API服务", link: "/pages/api", activeMatch: "/pages/api/"},
 			{text: "了解", link: "https://page.gpt2share.com/", activeMatch: "/pages/understand/"},
 			{text: "关于", link: "/pages/about", activeMatch: "/pages/about/"},
 			{text: "登录", link: "https://home.gpt2share.com/", activeMatch: "/pages/login"},
 			
 		],
-
 
 	},
 	vite: {

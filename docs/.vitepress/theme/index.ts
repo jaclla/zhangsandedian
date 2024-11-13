@@ -1,27 +1,23 @@
 // @ts-nocheck
-import DefaultTheme from "vitepress/theme";
-import "./styles/index.scss";
-
-import 'element-plus/dist/index.css';
-import  "./css/custom.css"	
-import ElementPlus from 'element-plus';
-import { h } from "vue";
-// 页面组件
+import { h } from 'vue'
+import Theme from 'vitepress/theme'
+import './styles/index.scss'
+import './css/custom.css'
 import Foo from './components/foo.vue'
-import character from './components/character.vue'
-import about from './components/about.vue'
-export default {
+import Character from './components/character.vue'
+import About from './components/about.vue'
+import Api from './components/api.vue'
 
-    ...DefaultTheme,
-		Layout: () => {
-			return h(DefaultTheme.Layout, null, {
-					"home-hero-info":()=>h(Foo)
-			})
-	}, 
-    enhanceApp(ctx) {
-        DefaultTheme.enhanceApp(ctx);
-				ctx.app.component('character', character)
-				ctx.app.component('about', about)
-				ctx.app.use(ElementPlus)
-    },
-};
+export default {
+  ...Theme,
+  Layout() {
+    return h(Theme.Layout, null, {
+      'home-features-after': () => h(Foo),
+    })
+  },
+  enhanceApp({ app }) {
+    app.component('Character', Character)
+    app.component('About', About)
+    app.component('Api', Api)
+  }
+}
