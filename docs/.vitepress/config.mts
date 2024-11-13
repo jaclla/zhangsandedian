@@ -37,8 +37,10 @@ export default defineConfig({
 			
 		],
 
+		appearance: false
 	},
 	vite: {
 		plugins: [],
 	},
+	appearance: false,
 });

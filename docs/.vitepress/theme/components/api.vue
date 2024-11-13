@@ -119,20 +119,6 @@
 			</div>
 		</div>
 
-		<!-- Stats Section -->
-		<div class="mx-auto max-w-7xl px-6 lg:px-8 py-24">
-			<div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
-				<div>
-					<div class="mt-6 grid grid-cols-4 gap-4">
-						<!-- 移除示例logo循环，改为实际的合作伙伴logo或者先注释掉 -->
-						<!--
-						<img v-for="i in 8" :key="i" src="path/to/logo" alt="Partner logo" class="h-12 w-auto grayscale" />
-						-->
-					</div>
-				</div>
-			</div>
-		</div>
-
 		<!-- Features Section -->
 		<div class="mx-auto max-w-7xl px-6 lg:px-8 py-24">
 			<div class="mx-auto max-w-2xl lg:text-center">
@@ -290,11 +276,11 @@
 						我们时刻恭候您的咨询，提供专业的技术支持和服务保障。
 					</p>
 					<div class="mt-10 flex items-center justify-center gap-x-6">
-						<a href="#"
+						<a href="https://api.gpt2share.com/"
 							 class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							立即开始使用
 						</a>
-						<a href="#" class="text-sm font-semibold leading-6 text-gray-900">了解更多 <span aria-hidden="true">→</span></a>
+						<a href="https://page.gpt2share.com/use-cases/gptapi-qi-ye-zhong-zhuan-fu-wu" class="text-sm font-semibold leading-6 text-gray-900">了解更多 <span aria-hidden="true">→</span></a>
 					</div>
 				</div>
 			</div>
