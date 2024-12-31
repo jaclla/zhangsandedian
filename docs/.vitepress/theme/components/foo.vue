@@ -216,10 +216,10 @@
 					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
 						<h3 id="tier-essential" class="text-base font-semibold leading-7 text-gray-900">4.0中杯</h3>
 						<p class="mt-6 flex items-baseline gap-x-1">
-							<span class="text-5xl font-bold tracking-tight text-gray-900">￥40</span>
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥48</span>
 							<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
 						</p>
-						<p class="mt-3 text-sm leading-6 text-gray-500">￥33 per month if paid annually</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥38 per month if paid annually</p>
 						<a href="https://home.gpt2share.com" aria-describedby="tier-essential"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
@@ -317,10 +317,10 @@
 					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
 						<h3 id="tier-growth" class="text-base font-semibold leading-7 text-gray-900">4.0大杯</h3>
 						<p class="mt-6 flex items-baseline gap-x-1">
-							<span class="text-5xl font-bold tracking-tight text-gray-900">￥48</span>
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥58</span>
 							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
 						</p>
-						<p class="mt-3 text-sm leading-6 text-gray-500">￥40 per month if paid annually</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥48 per month if paid annually</p>
 						<a href="https://home.gpt2share.com" aria-describedby="tier-growth"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
@@ -452,10 +452,10 @@
 					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
 						<h3 id="tier-ultra" class="text-base font-semibold leading-7 text-gray-900">4.0大杯超大杯</h3>
 						<p class="mt-6 flex items-baseline gap-x-1">
-							<span class="text-5xl font-bold tracking-tight text-gray-900">￥58</span>
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥68</span>
 							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
 						</p>
-						<p class="mt-3 text-sm leading-6 text-gray-500">￥50 per month if paid annually</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥58 per month if paid annually</p>
 						<a href="https://home.gpt2share.com" aria-describedby="tier-ultra"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
@@ -591,10 +591,10 @@
 					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
 						<h3 id="tier-essential" class="text-base font-semibold leading-7 text-gray-900">Pro中杯</h3>
 						<p class="mt-6 flex items-baseline gap-x-1">
-							<span class="text-5xl font-bold tracking-tight text-gray-900">￥50</span>
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥58</span>
 							<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
 						</p>
-						<p class="mt-3 text-sm leading-6 text-gray-500">￥41 per month if paid annually</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥48 per month if paid annually</p>
 						<a href="https://home.gpt2share.com" aria-describedby="tier-essential"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
@@ -692,10 +692,10 @@
 					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
 						<h3 id="tier-growth" class="text-base font-semibold leading-7 text-gray-900">Pro大杯</h3>
 						<p class="mt-6 flex items-baseline gap-x-1">
-							<span class="text-5xl font-bold tracking-tight text-gray-900">￥58</span>
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥68</span>
 							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
 						</p>
-						<p class="mt-3 text-sm leading-6 text-gray-500">￥48 per month if paid annually</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥58 per month if paid annually</p>
 						<a href="https://home.gpt2share.com" aria-describedby="tier-growth"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
@@ -827,10 +827,10 @@
 					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
 						<h3 id="tier-ultra" class="text-base font-semibold leading-7 text-gray-900">Pro超大杯</h3>
 						<p class="mt-6 flex items-baseline gap-x-1">
-							<span class="text-5xl font-bold tracking-tight text-gray-900">￥68</span>
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥78</span>
 							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
 						</p>
-						<p class="mt-3 text-sm leading-6 text-gray-500">￥58 per month if paid annually</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥68 per month if paid annually</p>
 						<a href="https://home.gpt2share.com" aria-describedby="tier-ultra"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
