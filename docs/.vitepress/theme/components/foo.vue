@@ -165,19 +165,19 @@
 			<dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-4">
 				<div class="mx-auto flex max-w-xs flex-col gap-y-4">
 					<dt class="text-base leading-7 text-gray-600">累计可用节点</dt>
-					<dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">10+</dd>
+					<dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">60+</dd>
 				</div>
 				<div class="mx-auto flex max-w-xs flex-col gap-y-4">
 					<dt class="text-base leading-7 text-gray-600">累计服务时长</dt>
-					<dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">8个月+</dd>
+					<dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">18个月+</dd>
 				</div>
 				<div class="mx-auto flex max-w-xs flex-col gap-y-4">
 					<dt class="text-base leading-7 text-gray-600">累计服务人数</dt>
-					<dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">6,000+</dd>
+					<dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">16,000+</dd>
 				</div>
 				<div class="mx-auto flex max-w-xs flex-col gap-y-4">
 					<dt class="text-base leading-7 text-gray-600">支持AI模型数</dt>
-					<dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">2+</dd>
+					<dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">20+</dd>
 				</div>
 			</dl>
 		</div>
@@ -448,9 +448,9 @@
 						</ul>
 					</div>
 
-					<!-- 4.0大杯超大杯 -->
+					<!-- 4.0超大杯 -->
 					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
-						<h3 id="tier-ultra" class="text-base font-semibold leading-7 text-gray-900">4.0大杯超大杯</h3>
+						<h3 id="tier-ultra" class="text-base font-semibold leading-7 text-gray-900">4.0超大杯</h3>
 						<p class="mt-6 flex items-baseline gap-x-1">
 							<span class="text-5xl font-bold tracking-tight text-gray-900">￥68</span>
 							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
