@@ -27,6 +27,13 @@
 					width="2432"
 					height="1442"
 				/>
+				<img
+					src="https://s2.loli.net/2025/03/19/iZ9o7b1lsxycaBS.png"
+					alt="App screenshot"
+					class="mb-[-1%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
+					width="2432"
+					height="4000"
+				/>
 				<div class="relative" aria-hidden="true">
 					<div class="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%]"></div>
 				</div>
@@ -206,6 +213,18 @@
 					:class="['px-6 py-2 rounded-full', activePlan === 'claude' ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-700']"
 				>
 					Claude
+				</button>
+				<button
+					@click="activePlan = 'grok'"
+					:class="['px-6 py-2 rounded-full', activePlan === 'grok' ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-700']"
+				>
+					Grok
+				</button>
+				<button
+					@click="activePlan = 'hybrid'"
+					:class="['px-6 py-2 rounded-full', activePlan === 'hybrid' ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-700']"
+				>
+					AI混合
 				</button>
 			</div>
 
@@ -954,6 +973,773 @@
 									></path>
 								</svg>
 								工作区GPTs共享
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div v-else-if="activePlan === 'grok'" class="mt-20 flow-root">
+				<div
+					class="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-gray-100 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-x lg:divide-y-0 xl:-mx-4">
+					<!-- Grok中杯 -->
+					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+						<h3 id="tier-essential" class="text-base font-semibold leading-7 text-gray-900">Grok中杯</h3>
+						<p class="mt-6 flex items-baseline gap-x-1">
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥68</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
+						</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥58 per month if paid annually</p>
+						<a href="https://home.gpt2share.com" aria-describedby="tier-essential"
+							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+							前往购买节点
+						</a>
+						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								国内直连的Grok
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								Grok模型 20条/1小时
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								官网UI完美复刻
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								无需翻墙直接访问
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								会话互相隐私隔离
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								支持插件和文档
+							</li>
+						</ul>
+					</div>
+
+					<!-- Grok大杯 -->
+					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+						<h3 id="tier-growth" class="text-base font-semibold leading-7 text-gray-900">Grok大杯</h3>
+						<p class="mt-6 flex items-baseline gap-x-1">
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥78</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
+						</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥68 per month if paid annually</p>
+						<a href="https://home.gpt2share.com" aria-describedby="tier-growth"
+							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+							前往购买节点
+						</a>
+						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								国内直连的Grok
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								Grok模型 30条/1小时
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								官网UI完美复刻
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								无需翻墙直接访问
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								会话互相隐私隔离
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								支持插件和文档
+							</li>
+						</ul>
+					</div>
+
+					<!-- Grok超大杯 -->
+					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+						<h3 id="tier-ultra" class="text-base font-semibold leading-7 text-gray-900">Grok超大杯</h3>
+						<p class="mt-6 flex items-baseline gap-x-1">
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥88</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
+						</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥78 per month if paid annually</p>
+						<a href="https://home.gpt2share.com" aria-describedby="tier-ultra"
+							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+							前往购买节点
+						</a>
+						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								国内直连的Grok
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								Grok模型 50条/1小时
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								官网UI完美复刻
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								无需翻墙直接访问
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								会话互相隐私隔离
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								支持插件和文档
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div v-else-if="activePlan === 'hybrid'" class="mt-20 flow-root">
+				<div
+					class="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-gray-100 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-x lg:divide-y-0 xl:-mx-4">
+					<!-- 中杯混合 -->
+					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+						<h3 id="tier-essential" class="text-base font-semibold leading-7 text-gray-900">中杯混合</h3>
+						<p class="mt-6 flex items-baseline gap-x-1">
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥138</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
+						</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥118 per month if paid annually</p>
+						<a href="https://home.gpt2share.com" aria-describedby="tier-essential"
+							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+							前往购买节点
+						</a>
+						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								全系列AI模型支持
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								所有模型 20条/1小时
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								官网UI完美复刻
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								无需翻墙直接访问
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								会话互相隐私隔离
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								实时语音支持
+							</li>
+						</ul>
+					</div>
+
+					<!-- 大杯混合 -->
+					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+						<h3 id="tier-growth" class="text-base font-semibold leading-7 text-gray-900">大杯混合</h3>
+						<p class="mt-6 flex items-baseline gap-x-1">
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥188</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
+						</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥168 per month if paid annually</p>
+						<a href="https://home.gpt2share.com" aria-describedby="tier-growth"
+							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+							前往购买节点
+						</a>
+						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								全系列AI模型支持
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								所有模型 30条/1小时
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								官网UI完美复刻
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								无需翻墙直接访问
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								会话互相隐私隔离
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								实时语音支持
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								多AI同时使用
+							</li>
+						</ul>
+					</div>
+
+					<!-- 超大杯混合 -->
+					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+						<h3 id="tier-ultra" class="text-base font-semibold leading-7 text-gray-900">超大杯混合</h3>
+						<p class="mt-6 flex items-baseline gap-x-1">
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥218</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
+						</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥198 per month if paid annually</p>
+						<a href="https://home.gpt2share.com" aria-describedby="tier-ultra"
+							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+							前往购买节点
+						</a>
+						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								全系列AI模型支持
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								所有模型 50条/1小时
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								官网UI完美复刻
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								无需翻墙直接访问
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								会话互相隐私隔离
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								实时语音支持
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								多AI同时使用
+							</li>
+							<li class="flex gap-x-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+									class="h-6 w-5 flex-none text-indigo-600"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+										clip-rule="evenodd"
+									></path>
+								</svg>
+								顶级功能支持
 							</li>
 						</ul>
 					</div>
