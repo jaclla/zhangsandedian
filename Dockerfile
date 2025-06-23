@@ -1,5 +1,5 @@
 # 构建阶段
-FROM docker.1ms.run/library/node:latest as builder
+FROM docker.1ms.run/library/node:latest AS builder
 
 WORKDIR /app
 
