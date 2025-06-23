@@ -3,7 +3,7 @@
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
 			<div class="mx-auto max-w-2xl sm:text-center">
 				<h2 class="text-base font-semibold leading-7 text-indigo-600">领先的AI对话服务商</h2>
-				<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">折扣价体验ChatGPT和Claude</p>
+				<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">折扣价体验ChatGPT、Claude、Grok</p>
 				<p class="mt-6 text-lg leading-8 text-gray-600">
 					GPT2Share助力千家万户享受顶级AI对话服务,以合理的价格体验极致的智能交互!</p>
 			</div>
@@ -235,7 +235,7 @@
 					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
 						<h3 id="tier-essential" class="text-base font-semibold leading-7 text-gray-900">4.0中杯</h3>
 						<p class="mt-6 flex items-baseline gap-x-1">
-							<span class="text-5xl font-bold tracking-tight text-gray-900">￥48</span>
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥58</span>
 							<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥38 per month if paid annually</p>
@@ -339,7 +339,7 @@
 							<span class="text-5xl font-bold tracking-tight text-gray-900">￥58</span>
 							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
 						</p>
-						<p class="mt-3 text-sm leading-6 text-gray-500">￥48 per month if paid annually</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥58 per month if paid annually</p>
 						<a href="https://home.gpt2share.com" aria-describedby="tier-growth"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
@@ -613,7 +613,7 @@
 							<span class="text-5xl font-bold tracking-tight text-gray-900">￥58</span>
 							<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
 						</p>
-						<p class="mt-3 text-sm leading-6 text-gray-500">￥48 per month if paid annually</p>
+						<p class="mt-3 text-sm leading-6 text-gray-500">￥58 per month if paid annually</p>
 						<a href="https://home.gpt2share.com" aria-describedby="tier-essential"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
