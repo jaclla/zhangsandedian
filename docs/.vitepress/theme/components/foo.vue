@@ -215,6 +215,18 @@
 					Claude
 				</button>
 				<button
+					@click="activePlan = 'codex'"
+					:class="['px-6 py-2 rounded-full', activePlan === 'codex' ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-700']"
+				>
+					CodeX
+				</button>
+				<button
+					@click="activePlan = 'claudecode'"
+					:class="['px-6 py-2 rounded-full', activePlan === 'claudecode' ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-700']"
+				>
+					ClaudeCode
+				</button>
+				<button
 					@click="activePlan = 'grok'"
 					:class="['px-6 py-2 rounded-full', activePlan === 'grok' ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-700']"
 				>
@@ -1332,6 +1344,140 @@
 								</svg>
 								支持插件和文档
 							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div v-else-if="activePlan === 'codex'" class="mt-20 flow-root">
+				<div
+					class="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-gray-100 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-x lg:divide-y-0 xl:-mx-4">
+					<!-- CodeX 一日卡 -->
+					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+						<h3 class="text-base font-semibold leading-7 text-gray-900">CodeX 一日卡</h3>
+						<p class="mt-6 flex items-baseline gap-x-1">
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥9.9</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/日</span>
+						</p>
+						<a href="https://app.gpt2share.com" class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500">前往购买节点</a>
+						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+							<li class="flex gap-x-3">⚡ GPT-5 满血模型</li>
+							<li class="flex gap-x-3">🌐 提供互联网访问</li>
+							<li class="flex gap-x-3">🛡️ 安全可信智能体</li>
+							<li class="flex gap-x-3">✅ 符合人类偏好</li>
+							<li class="flex gap-x-3">📈 每日额度：$10/24小时</li>
+						</ul>
+					</div>
+
+					<!-- CodeX 中杯月卡 -->
+					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+						<h3 class="text-base font-semibold leading-7 text-gray-900">CodeX 中杯 <span class="ml-2 inline-block rounded-full bg-pink-100 px-2 py-0.5 text-xs text-pink-700">爆款</span></h3>
+						<p class="mt-6 flex items-baseline gap-x-1">
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥99</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
+						</p>
+						<a href="https://app.gpt2share.com" class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500">前往购买节点</a>
+						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+							<li class="flex gap-x-3">🌐 互联网访问、工具支持</li>
+							<li class="flex gap-x-3">🔒 隐私会话隔离</li>
+							<li class="flex gap-x-3">🧠 GPT-5 系列体验</li>
+							<li class="flex gap-x-3">📈 每日额度：$20/24小时</li>
+						</ul>
+					</div>
+
+					<!-- CodeX 大杯月卡 -->
+					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+						<h3 class="text-base font-semibold leading-7 text-gray-900">CodeX 大杯</h3>
+						<p class="mt-6 flex items-baseline gap-x-1">
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥199</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
+						</p>
+						<a href="https://app.gpt2share.com" class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500">前往购买节点</a>
+						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+							<li class="flex gap-x-3">⚙️ 更高并发与稳定性</li>
+							<li class="flex gap-x-3">🧰 插件/文档等能力</li>
+							<li class="flex gap-x-3">📈 每日额度：$30/24小时</li>
+						</ul>
+					</div>
+
+					<!-- CodeX 超大杯月卡 -->
+					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+						<h3 class="text-base font-semibold leading-7 text-gray-900">CodeX 超大杯</h3>
+						<p class="mt-6 flex items-baseline gap-x-1">
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥299</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
+						</p>
+						<a href="https://app.gpt2share.com" class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500">前往购买节点</a>
+						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+							<li class="flex gap-x-3">🚀 大工作量场景优选</li>
+							<li class="flex gap-x-3">📊 透明计费，API可用</li>
+							<li class="flex gap-x-3">📈 每日额度：$50/24小时</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div v-else-if="activePlan === 'claudecode'" class="mt-20 flow-root">
+				<div
+					class="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-gray-100 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-x lg:divide-y-0 xl:-mx-4">
+					<!-- ClaudeCode 一日卡 -->
+					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+						<h3 class="text-base font-semibold leading-7 text-gray-900">ClaudeCode 一日卡</h3>
+						<p class="mt-6 flex items-baseline gap-x-1">
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥9.9</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/日</span>
+						</p>
+						<a href="https://app.gpt2share.com" class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500">前往购买节点</a>
+						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+							<li class="flex gap-x-3">🧠 Claude 4.1 Sonnet/Opus</li>
+							<li class="flex gap-x-3">📏 200K 上下文窗口</li>
+							<li class="flex gap-x-3">💻 实时代码分析</li>
+							<li class="flex gap-x-3">🔌 支持 MCP</li>
+							<li class="flex gap-x-3">📈 每日额度：$10/24小时</li>
+						</ul>
+					</div>
+
+					<!-- ClaudeCode 中杯月卡 -->
+					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+						<h3 class="text-base font-semibold leading-7 text-gray-900">ClaudeCode 中杯</h3>
+						<p class="mt-6 flex items-baseline gap-x-1">
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥299</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
+						</p>
+						<a href="https://app.gpt2share.com" class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500">前往购买节点</a>
+						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+							<li class="flex gap-x-3">🧑‍💻 100+ 编程语言</li>
+							<li class="flex gap-x-3">📚 长文本代码场景</li>
+							<li class="flex gap-x-3">📈 每日额度：$20/24小时</li>
+						</ul>
+					</div>
+
+					<!-- ClaudeCode 大杯月卡 -->
+					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+						<h3 class="text-base font-semibold leading-7 text-gray-900">ClaudeCode 大杯</h3>
+						<p class="mt-6 flex items-baseline gap-x-1">
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥399</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
+						</p>
+						<a href="https://app.gpt2share.com" class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500">前往购买节点</a>
+						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+							<li class="flex gap-x-3">🧰 高并发与稳定性</li>
+							<li class="flex gap-x-3">🧩 工具链与API支持</li>
+							<li class="flex gap-x-3">📈 每日额度：$30/24小时</li>
+						</ul>
+					</div>
+
+					<!-- ClaudeCode 超大杯月卡 -->
+					<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+						<h3 class="text-base font-semibold leading-7 text-gray-900">ClaudeCode 超大杯</h3>
+						<p class="mt-6 flex items-baseline gap-x-1">
+							<span class="text-5xl font-bold tracking-tight text-gray-900">￥599</span>
+							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
+						</p>
+						<a href="https://app.gpt2share.com" class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500">前往购买节点</a>
+						<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+							<li class="flex gap-x-3">🚀 企业/团队首选</li>
+							<li class="flex gap-x-3">🔌 全功能，API可用</li>
+							<li class="flex gap-x-3">📈 每日额度：$50/24小时</li>
 						</ul>
 					</div>
 				</div>
