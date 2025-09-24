@@ -239,7 +239,7 @@
 							<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥38 per month if paid annually</p>
-						<a href="https://home.gpt2share.com" aria-describedby="tier-essential"
+						<a href="https://app.gpt2share.com" aria-describedby="tier-essential"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
 						</a>
@@ -340,7 +340,7 @@
 							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥58 per month if paid annually</p>
-						<a href="https://home.gpt2share.com" aria-describedby="tier-growth"
+						<a href="https://app.gpt2share.com" aria-describedby="tier-growth"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
 						</a>
@@ -475,7 +475,7 @@
 							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥58 per month if paid annually</p>
-						<a href="https://home.gpt2share.com" aria-describedby="tier-ultra"
+						<a href="https://app.gpt2share.com" aria-describedby="tier-ultra"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
 						</a>
@@ -614,7 +614,7 @@
 							<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥58 per month if paid annually</p>
-						<a href="https://home.gpt2share.com" aria-describedby="tier-essential"
+						<a href="https://app.gpt2share.com" aria-describedby="tier-essential"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
 						</a>
@@ -715,7 +715,7 @@
 							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥58 per month if paid annually</p>
-						<a href="https://home.gpt2share.com" aria-describedby="tier-growth"
+						<a href="https://app.gpt2share.com" aria-describedby="tier-growth"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
 						</a>
@@ -850,7 +850,7 @@
 							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥68 per month if paid annually</p>
-						<a href="https://home.gpt2share.com" aria-describedby="tier-ultra"
+						<a href="https://app.gpt2share.com" aria-describedby="tier-ultra"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
 						</a>
@@ -989,7 +989,7 @@
 							<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥58 per month if paid annually</p>
-						<a href="https://home.gpt2share.com" aria-describedby="tier-essential"
+						<a href="https://app.gpt2share.com" aria-describedby="tier-essential"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
 						</a>
@@ -1107,7 +1107,7 @@
 							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥68 per month if paid annually</p>
-						<a href="https://home.gpt2share.com" aria-describedby="tier-growth"
+						<a href="https://app.gpt2share.com" aria-describedby="tier-growth"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
 						</a>
@@ -1225,7 +1225,7 @@
 							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥78 per month if paid annually</p>
-						<a href="https://home.gpt2share.com" aria-describedby="tier-ultra"
+						<a href="https://app.gpt2share.com" aria-describedby="tier-ultra"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
 						</a>
@@ -1347,7 +1347,7 @@
 							<span class="text-sm font-semibold leading-6 text-gray-600">/month</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥118 per month if paid annually</p>
-						<a href="https://home.gpt2share.com" aria-describedby="tier-essential"
+						<a href="https://app.gpt2share.com" aria-describedby="tier-essential"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
 						</a>
@@ -1465,7 +1465,7 @@
 							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥168 per month if paid annually</p>
-						<a href="https://home.gpt2share.com" aria-describedby="tier-growth"
+						<a href="https://app.gpt2share.com" aria-describedby="tier-growth"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
 						</a>
@@ -1600,7 +1600,7 @@
 							<span class="text-sm font-semibold leading-6 text-gray-600">/月</span>
 						</p>
 						<p class="mt-3 text-sm leading-6 text-gray-500">￥198 per month if paid annually</p>
-						<a href="https://home.gpt2share.com" aria-describedby="tier-ultra"
+						<a href="https://app.gpt2share.com" aria-describedby="tier-ultra"
 							 class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							前往购买节点
 						</a>

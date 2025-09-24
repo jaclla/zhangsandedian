@@ -33,7 +33,7 @@ export default defineConfig({
 			{text: "API服务", link: "/pages/api", activeMatch: "/pages/api/"},
 			{text: "了解", link: "https://page.gpt2share.com/", activeMatch: "/pages/understand/"},
 			{text: "关于", link: "/pages/about", activeMatch: "/pages/about/"},
-			{text: "登录", link: "https://home.gpt2share.com/", activeMatch: "/pages/login"},
+			{text: "登录", link: "https://app.gpt2share.com/", activeMatch: "/pages/login"},
 			
 		],
 
