@@ -1,0 +1,21 @@
+# Exclude local junk and heavy folders from the Docker build context
+
+# Dependencies and caches
+node_modules
+**/.vitepress/cache
+docs/.vitepress/dist
+.pnpm-store
+
+# VCS and editors
+.git
+.gitignore
+.idea
+.vscode
+
+# OS/filesystem noise
+.DS_Store
+*.log
+
+# Build outputs (generic)
+dist
+.cache
