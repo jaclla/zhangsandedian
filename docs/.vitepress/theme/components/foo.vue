@@ -34,6 +34,13 @@
 					width="2432"
 					height="4000"
 				/>
+				<img
+					src="https://s2.loli.net/2025/11/24/zrsOSF7H8ADGaPM.png"
+					alt="App screenshot"
+					class="mb-[-1%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
+					width="2432"
+					height="4000"
+				/>
 				<div class="relative" aria-hidden="true">
 					<div class="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%]"></div>
 				</div>
