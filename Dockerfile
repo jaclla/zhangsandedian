@@ -4,7 +4,8 @@ FROM registry.cn-shanghai.aliyuncs.com/aipgpt/node:20-alpine AS buildstage
 WORKDIR /app
 
 COPY package.json pnpm-lock.yaml ./
-RUN npm install -g pnpm
+# 固定 pnpm 版本，避免跟随 latest 变化导致构建行为不一致
+RUN npm install -g --registry=https://registry.npmmirror.com pnpm@10.10.0
 RUN pnpm install --frozen-lockfile
 
 # 只复制构建所需内容，避免无关文件影响缓存

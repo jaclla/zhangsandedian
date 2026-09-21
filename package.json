@@ -9,6 +9,13 @@
 	},
 	"license": "MIT",
 	"homepage": "https://gitee.com/dotnetmoyu/Vitepress-Template",
+	"packageManager": "pnpm@10.10.0",
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild",
+			"vue-demi"
+		]
+	},
 	"scripts": {
 		"docs:dev": "vitepress dev docs --host",
 		"docs:build": "vitepress build docs",

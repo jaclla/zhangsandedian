@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Gemini 大模型正式登陆 GPT2Share
+title: Gemini 大模型正式登陆 Unity2.ai
 ---
 
-# 🎉 重磅发布!Gemini 大模型正式登陆 GPT2Share
+# 🎉 重磅发布!Gemini 大模型正式登陆 Unity2.ai
 
 ## 🏆 国内首家!四大顶级AI模型一站式直连
 
-**历史性时刻!** GPT2Share 成为**国内首家实现 ChatGPT、Claude、Grok、Gemini 四大顶级AI模型一站式无损直连体验的服务平台**!
+**历史性时刻!** Unity2.ai 成为**国内首家实现 ChatGPT、Claude、Grok、Gemini 四大顶级AI模型一站式无损直连体验的服务平台**!
 
 从今天起,您无需在多个平台间切换,一个账号即可畅享全球最强AI矩阵。
 
@@ -36,7 +36,7 @@ title: Gemini 大模型正式登陆 GPT2Share
 
 ## 🎯 四大AI模型,各显神通
 
-在 GPT2Share,您可以根据不同场景,自由切换最合适的AI大脑:
+在 Unity2.ai,您可以根据不同场景,自由切换最合适的AI大脑:
 
 | 模型 | 核心优势 | 最佳场景 |
 |------|---------|---------|
@@ -88,7 +88,7 @@ title: Gemini 大模型正式登陆 GPT2Share
 
 ---
 
-## 🌟 为什么选择 GPT2Share?
+## 🌟 为什么选择 Unity2.ai?
 
 ### ⚡ **一站式体验**
 四大顶级AI模型集于一身,告别多平台切换的烦恼,效率提升不止一倍。
@@ -118,9 +118,9 @@ Gemini 功能目前处于**内测阶段**,我们诚邀您加入内测体验群,�
 
 ## 📲 立即体验
 
-访问 **[gpt2share.com](https://gpt2share.com/)** 了解更多详情
+访问 **[unity2.ai](https://unity2.ai/)** 了解更多详情
 
-前往 **[app.gpt2share.com](https://app.gpt2share.com/)** 购买套餐
+前往 **[app.unity2.ai](https://app.unity2.ai/)** 购买套餐
 
 ---
 
@@ -134,16 +134,16 @@ Gemini 功能目前处于**内测阶段**,我们诚邀您加入内测体验群,�
 
 ---
 
-## 🚀 GPT2Share:让AI触手可及
+## 🚀 Unity2.ai:让AI触手可及
 
 我们的使命很简单:**助力千家万户享受顶级AI对话服务**
 
-不论您是学生、职场人士还是创业者,都能在 GPT2Share 找到最适合自己的AI助手。
+不论您是学生、职场人士还是创业者,都能在 Unity2.ai 找到最适合自己的AI助手。
 
 **四大模型,一个平台,无限可能。**
 
-立即访问 [gpt2share.com](https://gpt2share.com/),开启您的AI新纪元!
+立即访问 [unity2.ai](https://unity2.ai/),开启您的AI新纪元!
 
 ---
 
-*GPT2Share - 国内首家四大AI模型一站式服务平台* 🌟
+*Unity2.ai - 国内首家四大AI模型一站式服务平台* 🌟
