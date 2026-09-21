@@ -20,7 +20,7 @@
 
 						<!-- 按钮组 -->
 						<div class="flex gap-4 mb-10">
-							<a href="https://api.gpt2share.com/"
+							<a href="https://api.unity2.ai/"
 								 class="px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-lg font-semibold hover:opacity-90">
 								前往工作台
 							</a>
@@ -276,11 +276,11 @@
 						我们时刻恭候您的咨询，提供专业的技术支持和服务保障。
 					</p>
 					<div class="mt-10 flex items-center justify-center gap-x-6">
-						<a href="https://api.gpt2share.com/"
+						<a href="https://api.unity2.ai/"
 							 class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							立即开始使用
 						</a>
-						<a href="https://page.gpt2share.com/use-cases/gptapi-qi-ye-zhong-zhuan-fu-wu" class="text-sm font-semibold leading-6 text-gray-900">了解更多 <span aria-hidden="true">→</span></a>
+						<a href="https://page.unity2.ai/use-cases/gptapi-qi-ye-zhong-zhuan-fu-wu" class="text-sm font-semibold leading-6 text-gray-900">了解更多 <span aria-hidden="true">→</span></a>
 					</div>
 				</div>
 			</div>

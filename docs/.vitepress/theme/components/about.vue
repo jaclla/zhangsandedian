@@ -4,7 +4,7 @@
 			<div class="mx-auto max-w-2xl text-center">
 				<h2 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">联系我们</h2>
 				<p class="mt-6 text-lg leading-8 text-gray-600">
-					<a href="https://page.gpt2share.com/overview/zhao-dao-wo-men">点击这里</a>
+					<a href="https://page.unity2.ai/overview/zhao-dao-wo-men">点击这里</a>
 				</p>
 			</div>
 		</div>
