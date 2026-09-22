@@ -1,8 +1,8 @@
 ---
 layout: home
 
-title: Unity2.ai
-titleTemplate: Unity2.ai
+title: AI2Share
+titleTemplate: AI2Share
 
 ---
 
